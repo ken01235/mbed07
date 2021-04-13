@@ -23,6 +23,7 @@ void master_thread(){
          char buf1[MAXIMUM_BUFFER_SIZE] = {'0'};
          device1.write(buf1, 1);
       }
+      
 
    ThisThread::sleep_for(5ms);
    }
